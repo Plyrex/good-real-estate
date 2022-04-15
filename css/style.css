@@ -1,0 +1,44 @@
+body 
+{
+	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+    url("../images/broll.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+.col-lg-5
+{
+	color:#ffffff;
+}
+
+.logoImage
+{
+	height:50px;
+	width:50px;
+}
+
+.card-body
+{
+	color:#000000;
+	background-color:#ffffff;
+}
+
+.card-footer
+{
+	background-color:#3f3f3f;
+}
+
+.bg-blue
+{
+	background-color:#000000;
+}
+
+.bg-primary
+{
+	background-color:#000000 !important;
+	color:#ffffff;
+
+}
+
+

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Good Real Estate - Contact Us</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+  <link href="css/style3.css" rel="stylesheet">
+  <script src="js/Validation.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" title="Sample Logo" class="logoImage"/>Good Real Estate</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop1.html">Catalouge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 align="center" class="display-4 text-white mt-5 mb-2">Get in Contact With Us!</h1>
+          <p class="lead mb-5 text-color">Get in contact with us so we can set you up with the right agent so finding your new place will be a breeze.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-12">
+        <h2 align="center">Some of our Top-Tier Agents</h2>
+        <hr>
+        <p>Here are some of our real estate agents that may help you find the perfect place for you</p>
+      </div>
+    </div>
+    <!-- /.row -->
+	<br />
+	<div class="row">
+		<div class="col-md-4 mb-5">
+			<div class="card h-100">
+			  <div class="card-body rounded">
+				<h2 class="card-title">Jonathon Rhodes</h2>
+				<p class="card-text">(868)750-9110</p>
+				<p class="card-text">jrhodes@gre.com</p>
+			  </div>
+			</div>
+		  </div>
+		  <!-- /.col-md-4 -->
+		  <div class="col-md-4 mb-5">
+			<div class="card h-100">
+			  <div class="card-body rounded">
+				<h2 class="card-title">Aleksi Olivier</h2>
+				<p class="card-text">(868)682-0817</p>
+				<p class="card-text">aolivier@gre.com</p>
+			  </div>
+			</div>
+		  </div>
+		  <!-- /.col-md-4 -->
+		  <div class="col-md-4 mb-5">
+			<div class="card h-100">
+			  <div class="card-body rounded">
+				<h2 class="card-title">Rabiya Choate-Khan</h2>
+				<p class="card-text">(868)782-3086</p>
+				<p class="card-text">rchoatekhan@gre.com</p>
+			  </div>
+			</div>
+		  </div>
+		  <!-- /.col-md-4 -->
+		  
+			<div class="row h-100 align-items-center">
+			  <div class="col-lg-12">
+				<h2 align="center">Let's Just Get Some Information So We Can Set You Up With The Perfect Agent</h2>
+				<p></p>
+				<p></p>
+			  </div>
+			</div>
+		  
+		  <div class="col-md-6 mb-6">
+			<div class="card h-100">
+			  <div class="card-body rounded">
+				<div class="card-text">
+					<form method="post" action="#" onsubmit="return validateForm(this);">
+						<div class="form-group">
+							<label>Name: </label>
+								<div class="form-row">
+										<div class="col">
+											<input type="text" name="firstName" value="" class="form-control" placeholder="First Name"/>
+											<span class="errorMessage" id="error1"></span>
+										</div>
+										<div class="col">
+											<input type="text" name="lastName" value="" class="form-control" placeholder="Last Name"/>
+											<span class="errorMessage" id="error2"></span>
+										</div>
+								</div>
+						</div>
+						
+						<div class="form-group">
+							<label>Email: </label>
+								<input type="type" name="email" value="" class="form-control" placeholder="johndoe@gmail.com"/>
+								<span class="errorMessage" id="error3"></span>
+						</div>	
+						
+						<div class="form-group">
+							<label>Phone Number: </label>
+								<input type="type" name="phone" value="" class="form-control" placeholder="123-4567" />
+								<span class="errorMessage" id="error4"></span>
+						</div>
+						
+
+						<div class="form-group">
+							<label>What You're Looking To Buy/Rent: </label>
+								<select name="type" class="custom-select my-1 mr-sm-2">
+									<option value="default">
+										---Please Select Type of Real Estate---
+									</option>
+									<option value="house">
+										House
+									</option>
+									<option value="vaHouse">
+										Vacation House
+									</option>
+									<option value="apartment">
+										Apartments
+									</option>
+									<option value="condo">
+										Condominiums
+									</option>
+									<option value="land">
+										Land
+									</option>
+									<option value="commercial">
+										Commercial
+									</option>
+								</select>
+								<span class="errorMessage" id="error5"></span>
+						</div>
+		
+						<div class="form-group">
+							<label>Preferred Area (optional): </label>
+								<input type="type" name="area" value="" class="form-control" placeholder="Chaguanas/Trinidad"/>
+								<span class="errorMessage" id="error6"></span>
+						</div>
+				
+				
+									
+						<div>
+							<input type="submit" name="formSubmit" value="Submit" class="btn btn-primary" />
+							<input type="reset" name="formReset" value="Reset" class="btn btn-primary" onclick="clearText()"/>
+						</div>
+						
+						<br />
+						<br />
+						
+					</form>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		<div class="col-md-6 mb-6">
+		<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 600px; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
+		<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.8299937797874!2d-61.41615988476983!3d10.514052892499874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c35f98204845be3%3A0xe5b4fcfbfa7cfe2!2sCentrapolis+Mall!5e0!3m2!1sen!2stt!4v1560277258311!5m2!1sen!2stt' width='600' height='600' frameborder='0' style='border:0' allowfullscreen></iframe></div>
+		</div>
+		<br />
+	</div>
+      
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <br />
+  <br />
+  <br />
+  <footer class="py-5 bg-blue">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Good Real Estate 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

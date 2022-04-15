@@ -1,0 +1,58 @@
+body
+{
+	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+    url("../images/contact.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:#ffffff;
+	
+}
+
+.col-lg-5
+{
+	color:#ffffff;
+}
+
+.logoImage
+{
+	height:50px;
+	width:50px;
+}
+
+.bg-primary
+{
+	background-color:#000000!important;
+
+}
+
+.text-color
+{
+	color:#ffffff;
+}
+
+.card-body
+{
+	color:#000000;
+	background-color:#ffffff; 
+	opacity:1;
+}
+
+.card-footer
+{
+	background-color:#5e5a5c;
+}
+
+.card-title
+{
+	color:#000000;
+}
+
+.errorMessage
+{
+	color:#ff0000;
+}
+
+.bg-blue
+{
+	background-color:#000000;
+}

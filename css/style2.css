@@ -1,0 +1,42 @@
+body
+{
+	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+    url("../images/broll2.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:#ffffff;
+	
+}
+
+.col-lg-5
+{
+	color:#ffffff;
+}
+
+.logoImage
+{
+	height:50px;
+	width:50px;
+}
+
+.bg-primary
+{
+	background-color:#000000 !important;  
+	color:#ffffff;
+
+}
+
+.text-color
+{
+	color:#ffffff;
+}
+
+.bg-blue
+{
+	background-color:#000000;
+}
+
+h1
+{
+	text-align:center;
+}
